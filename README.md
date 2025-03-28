@@ -1,10 +1,10 @@
 # aula5-teste
-teste git 
+Teste git 
 
-github desktop
+Github Desktop
 
-github vs code
+Github VS code
 
-github terminal bash
+Github Terminal BaSH
 
-page
+Page
