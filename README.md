@@ -1,4 +1,10 @@
 # aula5-teste
 teste git 
 
-primeiro contato com github
+github desktop
+
+github vs code
+
+github terminal bash
+
+page
