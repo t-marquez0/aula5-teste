@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    justify-content: flex-end;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.btn {
+    background: #ff5a5f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+.course-container {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+.course-info {
+    background: #2D9CDB;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+}
+.course-info h2 {
+    font-size: 2em;
+    margin: 0;
+}
+.course-info p {
+    margin: 10px 0;
+}
+.course-details {
+    flex: 1;
+    padding-left: 20px;
+}
+.course-details h2 {
+    color: #333;
+}
+.course-details p {
+    color: #666;
+}
+.book-btn {
+    background: #EB5757;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.book-btn:hover {
+    background: #c94c4c;
+}
+
+.benefits-container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.benefits-container h2 {
+    color: #333;
+}
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.benefit {
+    text-align: center;
+    max-width: 200px;
+}
+.benefit img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #EB5757;
+}
+.benefit p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.price {
+    background: #ff5a5f;
+    color: white;
+    font-weight: bold;
+}
+
+.about, .benefits, .signup {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.signup {
+    background: #0073e6;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        margin-bottom: 15px;
+        width: 80%;
+    }
+}
